@@ -1,0 +1,42 @@
+{
+  "name": "eslint-config-plat",
+  "version": "0.1.0",
+  "description": "ESLint shareable config for the PLAT JavaScript style guide",
+  "homepage": "https://github.com/plat-dev/eslint-config-plat",
+  "author": "PLAT Dev Team <dev@plat.co.kr> (https://www.plat.co.kr)",
+  "contributors": [
+    {
+      "name": "Claud D. Park",
+      "email": "posquit0.bj@gmail.com",
+      "url": "http://www.posquit0.com"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plat-dev/eslint-config-plat"
+  },
+  "bugs": {
+    "url": "https://github.com/plat-dev/eslint-config-plat/issues"
+  },
+  "keywords": [
+    "plat",
+    "javascript",
+    "nodejs",
+    "styleguide",
+    "eslint",
+    "eslintconfig",
+    "config"
+  ],
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "node test/test.js"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0"
+  }
+}
